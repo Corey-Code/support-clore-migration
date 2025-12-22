@@ -14,12 +14,12 @@ function u8(x) {
 }
 
 function dbg(name, v) {
-  console.log('[DBG]', name, {
-    type: typeof v,
-    ctor: v && v.constructor && v.constructor.name,
-    isU8: v instanceof Uint8Array,
-    length: v && v.length,
-  });
+  // console.log('[DBG]', name, {
+  //   type: typeof v,
+  //   ctor: v && v.constructor && v.constructor.name,
+  //   isU8: v instanceof Uint8Array,
+  //   length: v && v.length,
+  // });
   return v;
 }
 
