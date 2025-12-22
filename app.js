@@ -86,8 +86,7 @@ window.signCloreMessage = async function signCloreMessage(
     throw new Error('Missing inputs');
   }
 
-  const message = `I confirm ownership of the CLORE address ${cloreAddress}
-and link it to the EVM address ${evmAddress}.`;
+  const message = `Claim request for CLORE tokens to Ethereum address ${evmAddress} from ${cloreAddress}`;
 
   // Build Bitcoin-style message payload
   const enc = new TextEncoder();
