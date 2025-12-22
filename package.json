@@ -1,0 +1,36 @@
+{
+  "name": "support-clore-migration",
+  "version": "1.0.0",
+  "description": "https://docs.clore.ai/main/clore-migration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corey-Code/support-clore-migration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Corey-Code/support-clore-migration/issues"
+  },
+  "homepage": "https://github.com/Corey-Code/support-clore-migration#readme",
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "esbuild": "^0.27.2"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.0.1",
+    "@noble/secp256k1": "^3.0.0",
+    "bitcoinjs-lib": "^7.0.0",
+    "bitcoinjs-message": "^2.2.0",
+    "buffer": "^6.0.3",
+    "ecpair": "^3.0.0",
+    "events": "^3.3.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "tiny-secp256k1": "^2.2.4"
+  }
+}
